@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn the basics of HTML5 semantic tags, accessibility, and SEO-friendly web design.">
+  <title>HTML5 Semantic Web Page</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header role="banner">
+    <h1>Welcome to Semantic Web Design</h1>
+    <p>Your guide to accessible and SEO-friendly HTML5 structure.</p>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav role="navigation" aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#articles">Articles</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Section -->
+  <main role="main">
+    
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page demonstrates how to use HTML5 semantic tags to create a well-structured, accessible, and SEO-optimized layout without relying on CSS or JavaScript.</p>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" aria-labelledby="articles-heading">
+      <h2 id="articles-heading">Featured Articles</h2>
+
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title">Understanding Semantic HTML</h3>
+        <p>Semantic HTML helps browsers and assistive technologies understand the meaning of content, improving accessibility and SEO.</p>
+      </article>
+
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title">Accessibility Best Practices</h3>
+        <p>Using landmarks, labels, and proper heading structure ensures your site is usable by everyone, including those using screen readers.</p>
+      </article>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>Have questions or feedback? Reach out via email at <a href="mailto:mwbzinno@gmail.com">mwbzinno@gmail.com</a>.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Semantic Web Design. All rights reserved.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+</body>
+</html>
